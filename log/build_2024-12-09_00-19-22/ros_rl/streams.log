@@ -1,0 +1,32 @@
+[1.818s] Invoking command in '/home/zakaria/ros_ws/src/ros_rl': PYTHONPATH=/home/zakaria/ros_ws/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_rl build --build-base /home/zakaria/ros_ws/build/ros_rl/build install --record /home/zakaria/ros_ws/build/ros_rl/install.log --single-version-externally-managed install_data
+[2.071s] running egg_info
+[2.071s] creating ../../build/ros_rl/ros_rl.egg-info
+[2.088s] writing ../../build/ros_rl/ros_rl.egg-info/PKG-INFO
+[2.089s] writing dependency_links to ../../build/ros_rl/ros_rl.egg-info/dependency_links.txt
+[2.092s] writing requirements to ../../build/ros_rl/ros_rl.egg-info/requires.txt
+[2.092s] writing top-level names to ../../build/ros_rl/ros_rl.egg-info/top_level.txt
+[2.092s] writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+[2.129s] reading manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+[2.129s] writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+[2.130s] running build
+[2.130s] running build_py
+[2.130s] creating /home/zakaria/ros_ws/build/ros_rl/build
+[2.130s] creating /home/zakaria/ros_ws/build/ros_rl/build/lib
+[2.131s] creating /home/zakaria/ros_ws/build/ros_rl/build/lib/ros_rl
+[2.132s] copying ros_rl/__init__.py -> /home/zakaria/ros_ws/build/ros_rl/build/lib/ros_rl
+[2.132s] running install
+[2.138s] running install_lib
+[2.155s] creating /home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages/ros_rl
+[2.155s] copying /home/zakaria/ros_ws/build/ros_rl/build/lib/ros_rl/__init__.py -> /home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages/ros_rl
+[2.156s] byte-compiling /home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages/ros_rl/__init__.py to __init__.cpython-312.pyc
+[2.158s] running install_data
+[2.159s] creating /home/zakaria/ros_ws/install/ros_rl/share/ament_index
+[2.159s] creating /home/zakaria/ros_ws/install/ros_rl/share/ament_index/resource_index
+[2.160s] creating /home/zakaria/ros_ws/install/ros_rl/share/ament_index/resource_index/packages
+[2.161s] copying resource/ros_rl -> /home/zakaria/ros_ws/install/ros_rl/share/ament_index/resource_index/packages
+[2.162s] copying package.xml -> /home/zakaria/ros_ws/install/ros_rl/share/ros_rl
+[2.162s] running install_egg_info
+[2.184s] Copying ../../build/ros_rl/ros_rl.egg-info to /home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info
+[2.187s] running install_scripts
+[2.313s] writing list of installed files to '/home/zakaria/ros_ws/build/ros_rl/install.log'
+[2.349s] Invoked command in '/home/zakaria/ros_ws/src/ros_rl' returned '0': PYTHONPATH=/home/zakaria/ros_ws/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros_ws/install/ros_rl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_rl build --build-base /home/zakaria/ros_ws/build/ros_rl/build install --record /home/zakaria/ros_ws/build/ros_rl/install.log --single-version-externally-managed install_data
