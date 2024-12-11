@@ -2,12 +2,16 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    ld = LaunchDescription()
-    
-    test_node = Node(package="ros_rl", executable="test_node")
-    
-    ld.add_action(test_node)
-    
-    return ld
-
-
+    return LaunchDescription([
+        Node(
+            package='gazebo_ros',
+            executable='gzserver',
+            arguments=['--verbose', 'gazebo.world']
+        ),
+        Node(
+            package='ros_rl',
+            executable='robot_controller',
+            name='robot_controller',
+            parameters=[{'robot_description': 'robot.urdf'}]
+        ),
+    ])

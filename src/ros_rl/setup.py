@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'test_node = ros_rl.test_node:main',
+            'robot = ros_rl.robot:main',
         ],
     },
 )
