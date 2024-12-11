@@ -1,7 +1,7 @@
+/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/robot.py
 /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/__init__.py
-/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/test_node.py
+/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/__pycache__/robot.cpython-312.pyc
 /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/__pycache__/__init__.cpython-312.pyc
-/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/__pycache__/test_node.cpython-312.pyc
 /home/zakaria/ros2_rl/install/ros_rl/share/ament_index/resource_index/packages/ros_rl
 /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/package.xml
 /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/launch/launch.py
@@ -13,4 +13,4 @@
 /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info/top_level.txt
 /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info/zip-safe
-/home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl/test_node
+/home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl/robot

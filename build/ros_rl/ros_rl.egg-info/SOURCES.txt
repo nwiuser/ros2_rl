@@ -11,7 +11,7 @@ setup.py
 launch/launch.py
 resource/ros_rl
 ros_rl/__init__.py
-ros_rl/test_node.py
+ros_rl/robot.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

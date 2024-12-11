@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (ros_rl) JobQueued: {'identifier': 'ros_rl', 'dependencies': OrderedDict()}
+[0.000419] (ros_rl) JobStarted: {'identifier': 'ros_rl'}
+[0.102068] (-) TimerEvent: {}
+[0.203031] (-) TimerEvent: {}
+[0.304108] (-) TimerEvent: {}
+[0.405145] (-) TimerEvent: {}
+[0.511465] (-) TimerEvent: {}
+[0.612202] (-) TimerEvent: {}
+[0.712972] (-) TimerEvent: {}
+[0.815169] (-) TimerEvent: {}
+[1.046376] (-) TimerEvent: {}
+[1.191916] (-) TimerEvent: {}
+[1.340133] (-) TimerEvent: {}
+[1.507783] (-) TimerEvent: {}
+[1.608455] (-) TimerEvent: {}
+[1.715427] (-) TimerEvent: {}
+[1.833133] (-) TimerEvent: {}
+[1.945446] (-) TimerEvent: {}
+[2.047147] (-) TimerEvent: {}
+[2.198175] (-) TimerEvent: {}
+[2.304833] (-) TimerEvent: {}
+[2.438783] (-) TimerEvent: {}
+[2.544178] (-) TimerEvent: {}
+[2.647299] (-) TimerEvent: {}
+[2.813122] (-) TimerEvent: {}
+[3.751010] (-) TimerEvent: {}
+[3.856823] (-) TimerEvent: {}
+[3.961850] (-) TimerEvent: {}
+[4.245685] (-) TimerEvent: {}
+[4.377057] (-) TimerEvent: {}
+[4.489596] (-) TimerEvent: {}
+[4.609547] (-) TimerEvent: {}
+[4.713648] (-) TimerEvent: {}
+[4.815331] (-) TimerEvent: {}
+[4.916688] (-) TimerEvent: {}
+[5.017689] (-) TimerEvent: {}
+[5.118689] (-) TimerEvent: {}
+[5.230191] (-) TimerEvent: {}
+[5.331095] (-) TimerEvent: {}
+[5.437056] (-) TimerEvent: {}
+[5.540417] (-) TimerEvent: {}
+[5.689511] (-) TimerEvent: {}
+[5.790683] (-) TimerEvent: {}
+[5.891331] (-) TimerEvent: {}
+[5.992313] (-) TimerEvent: {}
+[6.140730] (-) TimerEvent: {}
+[6.289286] (-) TimerEvent: {}
+[6.393762] (-) TimerEvent: {}
+[6.496696] (-) TimerEvent: {}
+[6.661706] (-) TimerEvent: {}
+[6.764305] (-) TimerEvent: {}
+[6.872255] (-) TimerEvent: {}
+[6.937464] (ros_rl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_rl', 'build', '--build-base', '/home/zakaria/ros2_rl/build/ros_rl/build', 'install', '--record', '/home/zakaria/ros2_rl/build/ros_rl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zakaria/ros2_rl/src/ros_rl', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zakaria', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zakaria', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1723', 'SYSTEMD_EXEC_PID': '1976', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7212', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zakaria/ros2_rl/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zakaria', 'JOURNAL_STREAM': '8:14300', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zakaria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zakaria-VirtualBox:@/tmp/.ICE-unix/1932,unix/zakaria-VirtualBox:/tmp/.ICE-unix/1932', 'INVOCATION_ID': 'd884184ad1ee43c28dbf97aebad0b948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UXYGY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f1db81cc42.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zakaria/ros2_rl/install/ros_rl:/home/zakaria/ros2_rl/install/ros2_rl:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zakaria/ros2_rl/build/ros_rl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zakaria/ros2_rl/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:/home/zakaria/ros2_rl/install/ros2_rl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.972615] (-) TimerEvent: {}
+[7.073219] (-) TimerEvent: {}
+[7.173803] (-) TimerEvent: {}
+[7.274893] (-) TimerEvent: {}
+[7.377686] (-) TimerEvent: {}
+[7.479177] (-) TimerEvent: {}
+[7.579880] (-) TimerEvent: {}
+[7.625129] (ros_rl) StdoutLine: {'line': b'running egg_info\n'}
+[7.654112] (ros_rl) StdoutLine: {'line': b'writing ../../build/ros_rl/ros_rl.egg-info/PKG-INFO\n'}
+[7.656638] (ros_rl) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_rl/ros_rl.egg-info/dependency_links.txt\n'}
+[7.657627] (ros_rl) StdoutLine: {'line': b'writing entry points to ../../build/ros_rl/ros_rl.egg-info/entry_points.txt\n'}
+[7.659220] (ros_rl) StdoutLine: {'line': b'writing requirements to ../../build/ros_rl/ros_rl.egg-info/requires.txt\n'}
+[7.659909] (ros_rl) StdoutLine: {'line': b'writing top-level names to ../../build/ros_rl/ros_rl.egg-info/top_level.txt\n'}
+[7.680026] (-) TimerEvent: {}
+[7.703275] (ros_rl) StdoutLine: {'line': b"reading manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'\n"}
+[7.704839] (ros_rl) StdoutLine: {'line': b"writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'\n"}
+[7.705381] (ros_rl) StdoutLine: {'line': b'running build\n'}
+[7.705611] (ros_rl) StdoutLine: {'line': b'running build_py\n'}
+[7.706052] (ros_rl) StdoutLine: {'line': b'running install\n'}
+[7.712719] (ros_rl) StdoutLine: {'line': b'running install_lib\n'}
+[7.748220] (ros_rl) StdoutLine: {'line': b'running install_data\n'}
+[7.749176] (ros_rl) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.774765] (ros_rl) StdoutLine: {'line': b"removing '/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.774933] (ros_rl) StdoutLine: {'line': b'Copying ../../build/ros_rl/ros_rl.egg-info to /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info\n'}
+[7.774988] (ros_rl) StdoutLine: {'line': b'running install_scripts\n'}
+[7.781078] (-) TimerEvent: {}
+[7.882431] (-) TimerEvent: {}
+[7.973852] (ros_rl) StdoutLine: {'line': b'Installing robot script to /home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl\n'}
+[7.975839] (ros_rl) StdoutLine: {'line': b"writing list of installed files to '/home/zakaria/ros2_rl/build/ros_rl/install.log'\n"}
+[7.983170] (-) TimerEvent: {}
+[8.064835] (ros_rl) CommandEnded: {'returncode': 0}
+[8.084141] (-) TimerEvent: {}
+[8.132811] (ros_rl) JobEnded: {'identifier': 'ros_rl', 'rc': 0}
+[8.143926] (-) EventReactorShutdown: {}
