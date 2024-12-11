@@ -1,0 +1,25 @@
+[4.611s] Invoking command in '/home/zakaria/ros2_rl/src/ros_rl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zakaria/ros2_rl/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_rl build --build-base /home/zakaria/ros2_rl/build/ros_rl/build install --record /home/zakaria/ros2_rl/build/ros_rl/install.log --single-version-externally-managed install_data
+[5.032s] running egg_info
+[5.064s] writing ../../build/ros_rl/ros_rl.egg-info/PKG-INFO
+[5.071s] writing dependency_links to ../../build/ros_rl/ros_rl.egg-info/dependency_links.txt
+[5.071s] writing entry points to ../../build/ros_rl/ros_rl.egg-info/entry_points.txt
+[5.072s] writing requirements to ../../build/ros_rl/ros_rl.egg-info/requires.txt
+[5.072s] writing top-level names to ../../build/ros_rl/ros_rl.egg-info/top_level.txt
+[5.185s] reading manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+[5.190s] writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+[5.190s] running build
+[5.190s] running build_py
+[5.190s] copying ros_rl/robot.py -> /home/zakaria/ros2_rl/build/ros_rl/build/lib/ros_rl
+[5.196s] running install
+[5.208s] running install_lib
+[5.251s] copying /home/zakaria/ros2_rl/build/ros_rl/build/lib/ros_rl/robot.py -> /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl
+[5.254s] byte-compiling /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/robot.py to robot.cpython-312.pyc
+[5.261s] running install_data
+[5.264s] copying launch/launch.py -> /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/launch
+[5.270s] running install_egg_info
+[5.406s] removing '/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info' (and everything under it)
+[5.411s] Copying ../../build/ros_rl/ros_rl.egg-info to /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info
+[5.444s] running install_scripts
+[5.743s] Installing robot script to /home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl
+[5.759s] writing list of installed files to '/home/zakaria/ros2_rl/build/ros_rl/install.log'
+[5.880s] Invoked command in '/home/zakaria/ros2_rl/src/ros_rl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zakaria/ros2_rl/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_rl build --build-base /home/zakaria/ros2_rl/build/ros_rl/build install --record /home/zakaria/ros2_rl/build/ros_rl/install.log --single-version-externally-managed install_data
