@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001196] (ros_rl) JobQueued: {'identifier': 'ros_rl', 'dependencies': OrderedDict()}
+[0.001305] (ros_rl) JobStarted: {'identifier': 'ros_rl'}
+[0.098586] (-) TimerEvent: {}
+[0.201319] (-) TimerEvent: {}
+[0.309888] (-) TimerEvent: {}
+[0.410785] (-) TimerEvent: {}
+[0.512647] (-) TimerEvent: {}
+[0.613675] (-) TimerEvent: {}
+[0.718720] (-) TimerEvent: {}
+[0.820074] (-) TimerEvent: {}
+[0.920910] (-) TimerEvent: {}
+[1.022175] (-) TimerEvent: {}
+[1.123562] (-) TimerEvent: {}
+[1.224755] (-) TimerEvent: {}
+[1.326905] (-) TimerEvent: {}
+[1.428451] (-) TimerEvent: {}
+[1.529463] (-) TimerEvent: {}
+[1.630908] (-) TimerEvent: {}
+[1.732695] (-) TimerEvent: {}
+[1.834654] (-) TimerEvent: {}
+[1.940887] (-) TimerEvent: {}
+[2.042704] (-) TimerEvent: {}
+[2.150063] (-) TimerEvent: {}
+[2.255136] (-) TimerEvent: {}
+[2.356648] (-) TimerEvent: {}
+[2.461022] (-) TimerEvent: {}
+[2.570485] (-) TimerEvent: {}
+[2.671294] (-) TimerEvent: {}
+[2.773284] (-) TimerEvent: {}
+[2.875003] (-) TimerEvent: {}
+[2.977556] (-) TimerEvent: {}
+[3.086087] (-) TimerEvent: {}
+[3.193222] (-) TimerEvent: {}
+[3.298996] (-) TimerEvent: {}
+[3.400573] (-) TimerEvent: {}
+[3.519016] (-) TimerEvent: {}
+[3.632733] (-) TimerEvent: {}
+[3.735663] (-) TimerEvent: {}
+[3.836558] (-) TimerEvent: {}
+[3.939291] (-) TimerEvent: {}
+[4.040886] (-) TimerEvent: {}
+[4.144294] (-) TimerEvent: {}
+[4.250301] (-) TimerEvent: {}
+[4.354202] (-) TimerEvent: {}
+[4.455379] (-) TimerEvent: {}
+[4.556911] (-) TimerEvent: {}
+[4.659061] (-) TimerEvent: {}
+[4.765518] (-) TimerEvent: {}
+[4.794820] (ros_rl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_rl', 'build', '--build-base', '/home/zakaria/ros2_rl/build/ros_rl/build', 'install', '--record', '/home/zakaria/ros2_rl/build/ros_rl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zakaria/ros2_rl/src/ros_rl', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zakaria', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zakaria', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1723', 'SYSTEMD_EXEC_PID': '1976', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7212', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zakaria/ros2_rl/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zakaria', 'JOURNAL_STREAM': '8:14300', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zakaria', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zakaria-VirtualBox:@/tmp/.ICE-unix/1932,unix/zakaria-VirtualBox:/tmp/.ICE-unix/1932', 'INVOCATION_ID': 'd884184ad1ee43c28dbf97aebad0b948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UXYGY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f1db81cc42.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zakaria/ros2_rl/install/ros_rl:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zakaria/ros2_rl/build/ros_rl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zakaria/ros2_rl/build/ros_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.866124] (-) TimerEvent: {}
+[5.153117] (-) TimerEvent: {}
+[5.158331] (ros_rl) StdoutLine: {'line': b'running egg_info\n'}
+[5.222104] (ros_rl) StdoutLine: {'line': b'writing ../../build/ros_rl/ros_rl.egg-info/PKG-INFO\n'}
+[5.231327] (ros_rl) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_rl/ros_rl.egg-info/dependency_links.txt\n'}
+[5.231870] (ros_rl) StdoutLine: {'line': b'writing entry points to ../../build/ros_rl/ros_rl.egg-info/entry_points.txt\n'}
+[5.250335] (ros_rl) StdoutLine: {'line': b'writing requirements to ../../build/ros_rl/ros_rl.egg-info/requires.txt\n'}
+[5.250478] (ros_rl) StdoutLine: {'line': b'writing top-level names to ../../build/ros_rl/ros_rl.egg-info/top_level.txt\n'}
+[5.257767] (-) TimerEvent: {}
+[5.374564] (-) TimerEvent: {}
+[5.380131] (ros_rl) StdoutLine: {'line': b"reading manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'\n"}
+[5.384520] (ros_rl) StdoutLine: {'line': b"writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'\n"}
+[5.386603] (ros_rl) StdoutLine: {'line': b'running build\n'}
+[5.386816] (ros_rl) StdoutLine: {'line': b'running build_py\n'}
+[5.387688] (ros_rl) StdoutLine: {'line': b'copying ros_rl/test_node.py -> /home/zakaria/ros2_rl/build/ros_rl/build/lib/ros_rl\n'}
+[5.389812] (ros_rl) StdoutLine: {'line': b'running install\n'}
+[5.403332] (ros_rl) StdoutLine: {'line': b'running install_lib\n'}
+[5.453979] (ros_rl) StdoutLine: {'line': b'copying /home/zakaria/ros2_rl/build/ros_rl/build/lib/ros_rl/test_node.py -> /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl\n'}
+[5.456955] (ros_rl) StdoutLine: {'line': b'byte-compiling /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl/test_node.py to test_node.cpython-312.pyc\n'}
+[5.461643] (ros_rl) StdoutLine: {'line': b'running install_data\n'}
+[5.461965] (ros_rl) StdoutLine: {'line': b'creating /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/launch\n'}
+[5.463898] (ros_rl) StdoutLine: {'line': b'copying launch/launch.py -> /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/launch\n'}
+[5.464148] (ros_rl) StdoutLine: {'line': b'creating /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/model\n'}
+[5.464238] (ros_rl) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.485345] (-) TimerEvent: {}
+[5.504627] (ros_rl) StdoutLine: {'line': b"removing '/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.518496] (ros_rl) StdoutLine: {'line': b'Copying ../../build/ros_rl/ros_rl.egg-info to /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info\n'}
+[5.519323] (ros_rl) StdoutLine: {'line': b'running install_scripts\n'}
+[5.587135] (-) TimerEvent: {}
+[5.690100] (-) TimerEvent: {}
+[5.791159] (-) TimerEvent: {}
+[5.879644] (ros_rl) StdoutLine: {'line': b'Installing test_node script to /home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl\n'}
+[5.881674] (ros_rl) StdoutLine: {'line': b"writing list of installed files to '/home/zakaria/ros2_rl/build/ros_rl/install.log'\n"}
+[5.891690] (-) TimerEvent: {}
+[5.992340] (-) TimerEvent: {}
+[5.996900] (ros_rl) CommandEnded: {'returncode': 0}
+[6.106956] (-) TimerEvent: {}
+[6.163082] (ros_rl) JobEnded: {'identifier': 'ros_rl', 'rc': 0}
+[6.169388] (-) EventReactorShutdown: {}
