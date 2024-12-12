@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'robot = ros_rl.robot:main',
+            'robot_state_publisher = robot_'
         ],
     },
 )

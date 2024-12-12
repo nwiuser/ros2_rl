@@ -10,15 +10,23 @@ def generate_launch_description():
             name='rviz2',
         ),
 
-        ExecuteProcess(
-            cmd=['gz', 'launch', 'gazebo.world'],
-            output='screen'
-        ),
-        
         Node(
-            package='ros_rl',
-            executable='robot',
-            name='robot',
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            name='robot_state_publisher',
+            output='screen',
             parameters=[{'robot_description': 'robot.urdf'}]
         ),
+
+        # ExecuteProcess(
+        #     cmd=['gz', 'launch', 'gazebo.world'],
+        #     output='screen'
+        # ),
+        
+        # Node(
+        #     package='ros_rl',
+        #     executable='robot',
+        #     name='robot',
+        #     parameters=[{'robot_description': 'robot2.urdf'}]
+        # ),
     ])
