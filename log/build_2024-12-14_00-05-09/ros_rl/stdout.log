@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ros_rl/ros_rl.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_rl/ros_rl.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_rl/ros_rl.egg-info/entry_points.txt
+writing requirements to ../../build/ros_rl/ros_rl.egg-info/requires.txt
+writing top-level names to ../../build/ros_rl/ros_rl.egg-info/top_level.txt
+reading manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_rl/ros_rl.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/launch.py -> /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/launch
+creating /home/zakaria/ros2_rl/install/ros_rl/share/ros_rl/model
+running install_egg_info
+removing '/home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ros_rl/ros_rl.egg-info to /home/zakaria/ros2_rl/install/ros_rl/lib/python3.12/site-packages/ros_rl-0.0.0-py3.12.egg-info
+running install_scripts
+Installing robot script to /home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl
+Installing robot_state_publisher script to /home/zakaria/ros2_rl/install/ros_rl/lib/ros_rl
+writing list of installed files to '/home/zakaria/ros2_rl/build/ros_rl/install.log'

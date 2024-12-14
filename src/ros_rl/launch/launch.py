@@ -18,13 +18,6 @@ def generate_launch_description():
             parameters=[{'robot_description': 'robot.urdf'}]
         ),
 
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     arguments=['-d', str(Path(__file__).parent / 'rviz' / 'config.rviz')],  # Si vous avez un fichier de configuration RViz
-        #     output='screen',
-        # ),
-
         Node(
             package='joint_state_publisher',
             executable='joint_state_publisher',
@@ -32,16 +25,11 @@ def generate_launch_description():
             output='screen',
             parameters=[{'robot_description': 'robot.urdf'}]
         ),        
-
-        # ExecuteProcess(
-        #     cmd=['gz', 'launch', 'gazebo.world'],
-        #     output='screen'
-        # ),
         
-        # Node(
-        #     package='ros_rl',
-        #     executable='robot',
-        #     name='robot',
-        #     parameters=[{'robot_description': 'robot2.urdf'}]
-        # ),
+        Node(
+            package='ros_rl',
+            executable='robot',
+            name='robot',
+            output='screen',
+        ),
     ])

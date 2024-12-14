@@ -4,11 +4,11 @@ from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     return LaunchDescription([
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        # ),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+        ),
 
         Node(
             package='robot_state_publisher',
@@ -25,16 +25,11 @@ def generate_launch_description():
             output='screen',
             parameters=[{'robot_description': 'robot.urdf'}]
         ),        
-
-        ExecuteProcess(
-            cmd=['gz', 'launch', 'gazebo.world'],
-            output='screen'
-        ),
         
-        # Node(
-        #     package='ros_rl',
-        #     executable='robot',
-        #     name='robot',
-        #     parameters=[{'robot_description': 'robot2.urdf'}]
-        # ),
+        Node(
+            package='ros_rl',
+            executable='robot',
+            name='robot',
+            output='screen',
+        ),
     ])
